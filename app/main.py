@@ -1,5 +1,7 @@
+import os
 from types import TracebackType
 from typing import Optional, Type
+
 
 class CleanUpFile:
     def __init__(self, filename: str) -> None:
